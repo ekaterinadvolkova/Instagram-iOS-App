@@ -19,6 +19,14 @@
 		22D6229727AC425800955D74 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D6229627AC425800955D74 /* ProfileViewController.swift */; };
 		22D6229C27AC451700955D74 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D6229B27AC451700955D74 /* LoginViewController.swift */; };
 		22D6229E27AC452E00955D74 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D6229D27AC452E00955D74 /* RegistrationViewController.swift */; };
+		22D622A227AC461000955D74 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D622A127AC461000955D74 /* SettingsViewController.swift */; };
+		22D622A427AC462200955D74 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D622A327AC462200955D74 /* EditViewController.swift */; };
+		22D622A627AC466300955D74 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D622A527AC466300955D74 /* ListViewController.swift */; };
+		22D622A827AC468D00955D74 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D622A727AC468D00955D74 /* SearchViewController.swift */; };
+		22D622AA27AC46A800955D74 /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D622A927AC46A800955D74 /* SearchResultViewController.swift */; };
+		22D622AC27AC46E700955D74 /* PostEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D622AB27AC46E700955D74 /* PostEditorViewController.swift */; };
+		22D622AE27AC470500955D74 /* PublishPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D622AD27AC470500955D74 /* PublishPostViewController.swift */; };
+		22D622B027AC476A00955D74 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D622AF27AC476A00955D74 /* PostViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +44,14 @@
 		22D6229627AC425800955D74 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		22D6229B27AC451700955D74 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		22D6229D27AC452E00955D74 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		22D622A127AC461000955D74 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		22D622A327AC462200955D74 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		22D622A527AC466300955D74 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		22D622A727AC468D00955D74 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		22D622A927AC46A800955D74 /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
+		22D622AB27AC46E700955D74 /* PostEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEditorViewController.swift; sourceTree = "<group>"; };
+		22D622AD27AC470500955D74 /* PublishPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishPostViewController.swift; sourceTree = "<group>"; };
+		22D622AF27AC476A00955D74 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +152,14 @@
 			isa = PBXGroup;
 			children = (
 				22D6229A27AC44EA00955D74 /* Onboarding */,
+				22D622A127AC461000955D74 /* SettingsViewController.swift */,
+				22D622A327AC462200955D74 /* EditViewController.swift */,
+				22D622A527AC466300955D74 /* ListViewController.swift */,
+				22D622A727AC468D00955D74 /* SearchViewController.swift */,
+				22D622A927AC46A800955D74 /* SearchResultViewController.swift */,
+				22D622AB27AC46E700955D74 /* PostEditorViewController.swift */,
+				22D622AD27AC470500955D74 /* PublishPostViewController.swift */,
+				22D622AF27AC476A00955D74 /* PostViewController.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -222,12 +246,20 @@
 			files = (
 				22D6229127AC41BF00955D74 /* ExploreViewController.swift in Sources */,
 				22D6227C27AC383400955D74 /* HomeViewController.swift in Sources */,
+				22D622AE27AC470500955D74 /* PublishPostViewController.swift in Sources */,
+				22D622B027AC476A00955D74 /* PostViewController.swift in Sources */,
+				22D622A227AC461000955D74 /* SettingsViewController.swift in Sources */,
 				22D6229527AC424100955D74 /* NotificationViewController.swift in Sources */,
 				22D6229E27AC452E00955D74 /* RegistrationViewController.swift in Sources */,
+				22D622AC27AC46E700955D74 /* PostEditorViewController.swift in Sources */,
 				22D6227827AC383400955D74 /* AppDelegate.swift in Sources */,
+				22D622AA27AC46A800955D74 /* SearchResultViewController.swift in Sources */,
 				22D6229C27AC451700955D74 /* LoginViewController.swift in Sources */,
+				22D622A827AC468D00955D74 /* SearchViewController.swift in Sources */,
+				22D622A427AC462200955D74 /* EditViewController.swift in Sources */,
 				22D6229727AC425800955D74 /* ProfileViewController.swift in Sources */,
 				22D6227A27AC383400955D74 /* SceneDelegate.swift in Sources */,
+				22D622A627AC466300955D74 /* ListViewController.swift in Sources */,
 				22D6229327AC41FF00955D74 /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
