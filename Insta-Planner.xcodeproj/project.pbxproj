@@ -17,6 +17,8 @@
 		22D6229327AC41FF00955D74 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D6229227AC41FF00955D74 /* CameraViewController.swift */; };
 		22D6229527AC424100955D74 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D6229427AC424100955D74 /* NotificationViewController.swift */; };
 		22D6229727AC425800955D74 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D6229627AC425800955D74 /* ProfileViewController.swift */; };
+		22D6229C27AC451700955D74 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D6229B27AC451700955D74 /* LoginViewController.swift */; };
+		22D6229E27AC452E00955D74 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D6229D27AC452E00955D74 /* RegistrationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		22D6229227AC41FF00955D74 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		22D6229427AC424100955D74 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		22D6229627AC425800955D74 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		22D6229B27AC451700955D74 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		22D6229D27AC452E00955D74 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,7 @@
 		22D6228B27AC38A300955D74 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				22D6229927AC44DE00955D74 /* Other */,
 				22D6229827AC427800955D74 /* Core Tabs */,
 			);
 			path = Controllers;
@@ -125,6 +130,23 @@
 				22D6229627AC425800955D74 /* ProfileViewController.swift */,
 			);
 			path = "Core Tabs";
+			sourceTree = "<group>";
+		};
+		22D6229927AC44DE00955D74 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				22D6229A27AC44EA00955D74 /* Onboarding */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		22D6229A27AC44EA00955D74 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				22D6229B27AC451700955D74 /* LoginViewController.swift */,
+				22D6229D27AC452E00955D74 /* RegistrationViewController.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,7 +223,9 @@
 				22D6229127AC41BF00955D74 /* ExploreViewController.swift in Sources */,
 				22D6227C27AC383400955D74 /* HomeViewController.swift in Sources */,
 				22D6229527AC424100955D74 /* NotificationViewController.swift in Sources */,
+				22D6229E27AC452E00955D74 /* RegistrationViewController.swift in Sources */,
 				22D6227827AC383400955D74 /* AppDelegate.swift in Sources */,
+				22D6229C27AC451700955D74 /* LoginViewController.swift in Sources */,
 				22D6229727AC425800955D74 /* ProfileViewController.swift in Sources */,
 				22D6227A27AC383400955D74 /* SceneDelegate.swift in Sources */,
 				22D6229327AC41FF00955D74 /* CameraViewController.swift in Sources */,
