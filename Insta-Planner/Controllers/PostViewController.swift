@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CameraViewController: UIViewController {
+class PostViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,6 +15,4 @@ class CameraViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
-
 }

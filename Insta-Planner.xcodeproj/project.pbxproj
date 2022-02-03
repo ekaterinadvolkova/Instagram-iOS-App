@@ -26,7 +26,7 @@
 		22D622AA27AC46A800955D74 /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D622A927AC46A800955D74 /* SearchResultViewController.swift */; };
 		22D622AC27AC46E700955D74 /* PostEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D622AB27AC46E700955D74 /* PostEditorViewController.swift */; };
 		22D622AE27AC470500955D74 /* PublishPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D622AD27AC470500955D74 /* PublishPostViewController.swift */; };
-		22D622B027AC476A00955D74 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D622AF27AC476A00955D74 /* PostViewController.swift */; };
+		22D622B627AC4C3F00955D74 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D622B527AC4C3F00955D74 /* PostViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,7 +51,7 @@
 		22D622A927AC46A800955D74 /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
 		22D622AB27AC46E700955D74 /* PostEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEditorViewController.swift; sourceTree = "<group>"; };
 		22D622AD27AC470500955D74 /* PublishPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishPostViewController.swift; sourceTree = "<group>"; };
-		22D622AF27AC476A00955D74 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		22D622B527AC4C3F00955D74 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +98,7 @@
 			children = (
 				22D6229927AC44DE00955D74 /* Other */,
 				22D6229827AC427800955D74 /* Core Tabs */,
+				22D622B527AC4C3F00955D74 /* PostViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -159,7 +160,6 @@
 				22D622A927AC46A800955D74 /* SearchResultViewController.swift */,
 				22D622AB27AC46E700955D74 /* PostEditorViewController.swift */,
 				22D622AD27AC470500955D74 /* PublishPostViewController.swift */,
-				22D622AF27AC476A00955D74 /* PostViewController.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -247,7 +247,7 @@
 				22D6229127AC41BF00955D74 /* ExploreViewController.swift in Sources */,
 				22D6227C27AC383400955D74 /* HomeViewController.swift in Sources */,
 				22D622AE27AC470500955D74 /* PublishPostViewController.swift in Sources */,
-				22D622B027AC476A00955D74 /* PostViewController.swift in Sources */,
+				22D622B627AC4C3F00955D74 /* PostViewController.swift in Sources */,
 				22D622A227AC461000955D74 /* SettingsViewController.swift in Sources */,
 				22D6229527AC424100955D74 /* NotificationViewController.swift in Sources */,
 				22D6229E27AC452E00955D74 /* RegistrationViewController.swift in Sources */,
