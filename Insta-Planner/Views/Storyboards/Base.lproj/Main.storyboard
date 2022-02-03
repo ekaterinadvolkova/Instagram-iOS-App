@@ -30,11 +30,11 @@
             </objects>
             <point key="canvasLocation" x="-2375" y="-452"/>
         </scene>
-        <!--Item-->
+        <!--House-->
         <scene sceneID="x5v-eO-CFR">
             <objects>
                 <navigationController id="hfy-qe-h5i" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="DTD-gw-VCv"/>
+                    <tabBarItem key="tabBarItem" title="House" image="house" catalog="system" id="DTD-gw-VCv"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="zJw-lF-us4">
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -47,11 +47,11 @@
             </objects>
             <point key="canvasLocation" x="-4079" y="347"/>
         </scene>
-        <!--Item-->
+        <!--Navigation Controller-->
         <scene sceneID="uRo-aC-LEQ">
             <objects>
                 <navigationController id="9MP-h6-ftX" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="5Io-Kt-m7t"/>
+                    <tabBarItem key="tabBarItem" title="" image="globe" catalog="system" id="5Io-Kt-m7t"/>
                     <navigationItem key="navigationItem" id="jjs-22-T5o"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="JWd-Ot-X0H">
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
@@ -69,7 +69,7 @@
         <scene sceneID="eFS-d5-HTx">
             <objects>
                 <navigationController id="54t-jc-1MU" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="23a-wx-P0s"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="plus" catalog="system" id="23a-wx-P0s"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="m8G-va-tYu">
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -86,7 +86,7 @@
         <scene sceneID="Yix-CU-gok">
             <objects>
                 <navigationController id="BRe-AK-Dbu" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="f4C-sG-J20"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="bell" catalog="system" id="f4C-sG-J20"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="PAa-fV-YRR">
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -103,7 +103,7 @@
         <scene sceneID="5PJ-pV-pIQ">
             <objects>
                 <navigationController id="1q4-SZ-5VY" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="Lxy-ci-nAm"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="person" catalog="system" id="Lxy-ci-nAm"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="P1v-mB-lwc">
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -198,6 +198,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="bell" catalog="system" width="128" height="124"/>
+        <image name="globe" catalog="system" width="128" height="121"/>
+        <image name="house" catalog="system" width="128" height="106"/>
+        <image name="person" catalog="system" width="128" height="117"/>
+        <image name="plus" catalog="system" width="128" height="113"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
