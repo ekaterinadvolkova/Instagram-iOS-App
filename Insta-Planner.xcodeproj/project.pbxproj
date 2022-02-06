@@ -81,6 +81,20 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		221AE79527B0764800BBB943 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				22D622A127AC461000955D74 /* SettingsViewController.swift */,
+				22D622A327AC462200955D74 /* EditViewController.swift */,
+				22D622A527AC466300955D74 /* ListViewController.swift */,
+				22D622A727AC468D00955D74 /* SearchViewController.swift */,
+				22D622A927AC46A800955D74 /* SearchResultViewController.swift */,
+				22D622AB27AC46E700955D74 /* PostEditorViewController.swift */,
+				22D622AD27AC470500955D74 /* PublishPostViewController.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
 		22D6226B27AC383300955D74 = {
 			isa = PBXGroup;
 			children = (
@@ -172,13 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				22D6229A27AC44EA00955D74 /* Onboarding */,
-				22D622A127AC461000955D74 /* SettingsViewController.swift */,
-				22D622A327AC462200955D74 /* EditViewController.swift */,
-				22D622A527AC466300955D74 /* ListViewController.swift */,
-				22D622A727AC468D00955D74 /* SearchViewController.swift */,
-				22D622A927AC46A800955D74 /* SearchResultViewController.swift */,
-				22D622AB27AC46E700955D74 /* PostEditorViewController.swift */,
-				22D622AD27AC470500955D74 /* PublishPostViewController.swift */,
+				221AE79527B0764800BBB943 /* General */,
 			);
 			path = Other;
 			sourceTree = "<group>";
