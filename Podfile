@@ -1,5 +1,5 @@
  # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+ platform :ios, '10.0'
 
 target 'Insta-Planner' do
   use_frameworks!
@@ -7,10 +7,12 @@ target 'Insta-Planner' do
 pod "Appirater"
 
 # Firebase
+pod 'Firebase'
 pod 'Firebase/Core'
 pod 'Firebase/Auth'
 pod 'Firebase/Database'
 pod 'Firebase/Analytics'
-pod 'Firebase/Crashlytics' 
+pod 'Firebase/Crashlytics'
+pod 'Firebase/Storage'  
 
 end

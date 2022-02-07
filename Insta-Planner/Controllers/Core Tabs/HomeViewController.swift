@@ -2,7 +2,7 @@ import UIKit
 import FirebaseAuth
 
 class HomeViewController: UIViewController {
-
+  
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -22,7 +22,6 @@ class HomeViewController: UIViewController {
             present(loginVC, animated: false)
         }
     }
-
 
 }
 
