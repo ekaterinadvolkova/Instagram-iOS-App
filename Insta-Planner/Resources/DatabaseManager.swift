@@ -1,4 +1,4 @@
-import FirebseDatabase
+import Firebase
 
 public class DatabaseManager {
     

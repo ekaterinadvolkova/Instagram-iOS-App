@@ -31,11 +31,10 @@
 		22D622AC27AC46E700955D74 /* PostEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D622AB27AC46E700955D74 /* PostEditorViewController.swift */; };
 		22D622AE27AC470500955D74 /* PublishPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D622AD27AC470500955D74 /* PublishPostViewController.swift */; };
 		22D622B627AC4C3F00955D74 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D622B527AC4C3F00955D74 /* PostViewController.swift */; };
-		4EFB70D48E5A7423DCD3164E /* Pods_Insta_Planner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0B4AC2877AC7FE47FAD16F2 /* Pods_Insta_Planner.framework */; };
+		688B291A2F4A3105BB2F8B6C /* Pods_Insta_Planner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3409827130617CC5D4B4A52B /* Pods_Insta_Planner.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0E02F24D89204C91FCD9EB95 /* Pods-Insta-Planner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Insta-Planner.debug.xcconfig"; path = "Target Support Files/Pods-Insta-Planner/Pods-Insta-Planner.debug.xcconfig"; sourceTree = "<group>"; };
 		221AE79327B06ED100BBB943 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		221AE79627B14E0200BBB943 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		221AE79827B14F3000BBB943 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
@@ -62,8 +61,9 @@
 		22D622AB27AC46E700955D74 /* PostEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEditorViewController.swift; sourceTree = "<group>"; };
 		22D622AD27AC470500955D74 /* PublishPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishPostViewController.swift; sourceTree = "<group>"; };
 		22D622B527AC4C3F00955D74 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
-		345A4F555B4BCFB1D95E18F6 /* Pods-Insta-Planner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Insta-Planner.release.xcconfig"; path = "Target Support Files/Pods-Insta-Planner/Pods-Insta-Planner.release.xcconfig"; sourceTree = "<group>"; };
-		A0B4AC2877AC7FE47FAD16F2 /* Pods_Insta_Planner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Insta_Planner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3409827130617CC5D4B4A52B /* Pods_Insta_Planner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Insta_Planner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46DAD00E0A7D9C1B9CBEC7E4 /* Pods-Insta-Planner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Insta-Planner.release.xcconfig"; path = "Target Support Files/Pods-Insta-Planner/Pods-Insta-Planner.release.xcconfig"; sourceTree = "<group>"; };
+		A0851D208C245C672A2174F1 /* Pods-Insta-Planner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Insta-Planner.debug.xcconfig"; path = "Target Support Files/Pods-Insta-Planner/Pods-Insta-Planner.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EFB70D48E5A7423DCD3164E /* Pods_Insta_Planner.framework in Frameworks */,
+				688B291A2F4A3105BB2F8B6C /* Pods_Insta_Planner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,8 +81,8 @@
 		21E0A2209FF5B7C866172802 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0E02F24D89204C91FCD9EB95 /* Pods-Insta-Planner.debug.xcconfig */,
-				345A4F555B4BCFB1D95E18F6 /* Pods-Insta-Planner.release.xcconfig */,
+				A0851D208C245C672A2174F1 /* Pods-Insta-Planner.debug.xcconfig */,
+				46DAD00E0A7D9C1B9CBEC7E4 /* Pods-Insta-Planner.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -107,7 +107,7 @@
 				22D6227627AC383400955D74 /* Insta-Planner */,
 				22D6227527AC383400955D74 /* Products */,
 				21E0A2209FF5B7C866172802 /* Pods */,
-				9593B2767FB8BF8F3E24F756 /* Frameworks */,
+				806759C245820DD993EF4427 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -209,10 +209,10 @@
 			path = Onboarding;
 			sourceTree = "<group>";
 		};
-		9593B2767FB8BF8F3E24F756 /* Frameworks */ = {
+		806759C245820DD993EF4427 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A0B4AC2877AC7FE47FAD16F2 /* Pods_Insta_Planner.framework */,
+				3409827130617CC5D4B4A52B /* Pods_Insta_Planner.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -224,11 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22D6228827AC383800955D74 /* Build configuration list for PBXNativeTarget "Insta-Planner" */;
 			buildPhases = (
-				089ACA03E36DBCB76C933C24 /* [CP] Check Pods Manifest.lock */,
+				C1D020B3F5CF437FBB53684B /* [CP] Check Pods Manifest.lock */,
 				22D6227027AC383400955D74 /* Sources */,
 				22D6227127AC383400955D74 /* Frameworks */,
 				22D6227227AC383400955D74 /* Resources */,
-				7916263C9F7A197BE2555B1F /* [CP] Embed Pods Frameworks */,
+				B4347057CA750BBCE1C9113C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -287,7 +287,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		089ACA03E36DBCB76C933C24 /* [CP] Check Pods Manifest.lock */ = {
+		B4347057CA750BBCE1C9113C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Insta-Planner/Pods-Insta-Planner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Insta-Planner/Pods-Insta-Planner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Insta-Planner/Pods-Insta-Planner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1D020B3F5CF437FBB53684B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -307,23 +324,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7916263C9F7A197BE2555B1F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Insta-Planner/Pods-Insta-Planner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Insta-Planner/Pods-Insta-Planner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Insta-Planner/Pods-Insta-Planner-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -496,7 +496,7 @@
 		};
 		22D6228927AC383800955D74 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E02F24D89204C91FCD9EB95 /* Pods-Insta-Planner.debug.xcconfig */;
+			baseConfigurationReference = A0851D208C245C672A2174F1 /* Pods-Insta-Planner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -526,7 +526,7 @@
 		};
 		22D6228A27AC383800955D74 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 345A4F555B4BCFB1D95E18F6 /* Pods-Insta-Planner.release.xcconfig */;
+			baseConfigurationReference = 46DAD00E0A7D9C1B9CBEC7E4 /* Pods-Insta-Planner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
