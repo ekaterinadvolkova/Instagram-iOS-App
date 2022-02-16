@@ -89,7 +89,7 @@ class LoginViewController: UIViewController {
         super.viewDidLayoutSubviews()
         //assign frames
         headerView.frame = CGRect(x: 0,
-            y: view.safeAreaInsets.top,
+                                  y: 0.0,
             width: view.width,
             height: view.height / 3.0
         )
@@ -101,7 +101,7 @@ class LoginViewController: UIViewController {
             return
         }
         
-        guard var backgroundView = headerView.subviews.first else {
+        guard let backgroundView = headerView.subviews.first else {
             return
         }
         
