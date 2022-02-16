@@ -70,7 +70,8 @@ class LoginViewController: UIViewController {
     private let headerView: UIView = {
         let header = UIView()
         header.clipsToBounds = true
-        header.backgroundColor = .purple
+        let backgroundImageView = UIImageView(image: UIImage(named: "Gradient"))
+        header.addSubview(backgroundImageView)
         return header
     }()
 
@@ -90,8 +91,23 @@ class LoginViewController: UIViewController {
         headerView.frame = CGRect(x: 0,
             y: view.safeAreaInsets.top,
             width: view.width,
-            height: view.height / 3.0)
+            height: view.height / 3.0
+        )
+        configureHeaderView()
     }
+    
+    private func configureHeaderView(){
+        guard headerView.subviews.count == 1 else {
+            return
+        }
+        
+        guard var backgroundView = headerView.subviews.first else {
+            return
+        }
+        
+        backgroundView.frame = headerView.bounds
+    }
+    
     
     private func addSubViews(){
         view.addSubview(usernameEmailField)
