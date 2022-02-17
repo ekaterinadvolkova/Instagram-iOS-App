@@ -106,6 +106,16 @@ class LoginViewController: UIViewController {
         }
         
         backgroundView.frame = headerView.bounds
+        
+        //Add Instagram logo
+        let imageView = UIImageView(image: UIImage(named: "Text"))
+        headerView.addSubview(imageView)
+        imageView.contentMode = .scaleAspectFit
+        imageView.frame = CGRect(
+            x: headerView.width / 4.0,
+            y: view.safeAreaInsets.top,
+            width: headerView.width / 2.0,
+            height: headerView.height - view.safeAreaInsets.top)
     }
     
     
