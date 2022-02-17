@@ -1,4 +1,5 @@
 import UIKit
+import SafariServices
 
 class LoginViewController: UIViewController {
     
@@ -95,18 +96,18 @@ class LoginViewController: UIViewController {
                               for: .touchUpInside)
         
         createAccountButton.addTarget(self,
-                              action: #selector(didTapCreateAccountButton),
-                              for: .touchUpInside)
+                                      action: #selector(didTapCreateAccountButton),
+                                      for: .touchUpInside)
         
         termsButton.addTarget(self,
                               action: #selector(didTapTermsButton),
                               for: .touchUpInside)
         
         privacyButton.addTarget(self,
-                              action: #selector(didTapPrivacyButton),
-                              for: .touchUpInside)
+                                action: #selector(didTapPrivacyButton),
+                                for: .touchUpInside)
         
-         
+        
         // assign delegate for text field
         
         usernameEmailField.delegate = self
@@ -211,13 +212,40 @@ class LoginViewController: UIViewController {
     }
     
     //function to get called when 3 buttons are tapped
-    @objc private func didTapLoginButton(){}
+    @objc private func didTapLoginButton(){
+        //dismiss the keyword
+        passwordField.resignFirstResponder()
+        usernameEmailField.resignFirstResponder()
+        
+        guard let usernameEmail = usernameEmailField.text, !usernameEmail.isEmpty,
+              let password = passwordField.text, !password.isEmpty, password.count >= 8 else {
+                  return
+              }
+        //login functionality
+        
+    }
     
-    @objc private func didTapTermsButton(){}
+    @objc private func didTapTermsButton(){
+        guard let url = URL(string: "https://help.instagram.com/581066165581870") else {
+            return
+        }
+        let vc = SFSafariViewController(url: url)
+        present(vc, animated: true)
+    }
     
-    @objc private func didTapPrivacyButton(){}
+    @objc private func didTapPrivacyButton(){
+        guard let url = URL(string: "https://help.instagram.com/519522125107875/?maybe_redirect_pol=0") else {
+            return
+        }
+        let vc = SFSafariViewController(url: url)
+        present(vc, animated: true)
+    }
     
-    @objc private func didTapCreateAccountButton(){}
+    @objc private func didTapCreateAccountButton(){
+        let vc = RegistrationViewController()
+        present(vc, animated: true)
+        
+    }
     
 }
 
