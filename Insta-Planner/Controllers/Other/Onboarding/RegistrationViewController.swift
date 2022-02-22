@@ -72,15 +72,28 @@ class RegistrationViewController: UIViewController {
         button.setTitle("Sign up", for: .normal)
         button.layer.masksToBounds = true
         button.layer.cornerRadius = Constants.cornerRadius
-        button.backgroundColor = .systemBlue
+        button.backgroundColor = .systemGreen
         button.setTitleColor(.white, for: .normal)
         return button
     }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.addSubview(usernameField)
+        view.addSubview(emailField)
+        view.addSubview(passwordField)
+        view.addSubview(registerButton)
         view.backgroundColor = .systemBackground
-        
+        //privacy and terms are skipped for now
+    }
+    
+    //assign frames
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        usernameField.frame = CGRect(x: 20, y: view.safeAreaInsets.top + 10, width: view.width - 40, height: 52)
+        emailField.frame = CGRect(x: 20, y: usernameField.bottom  + 10, width: view.width - 40, height: 52)
+        passwordField.frame = CGRect(x: 20, y: emailField.bottom + 10, width: view.width - 40, height: 52)
+        registerButton.frame = CGRect(x: 20, y: passwordField.bottom + 10, width: view.width - 40, height: 52)
     }
 
 }
