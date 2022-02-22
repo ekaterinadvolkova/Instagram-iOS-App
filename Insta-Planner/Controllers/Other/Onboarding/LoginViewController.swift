@@ -214,6 +214,7 @@ class LoginViewController: UIViewController {
     
     //function to get called when 3 buttons are tapped
     @objc private func didTapLoginButton(){
+        
         //dismiss the keyword
         passwordField.resignFirstResponder()
         usernameEmailField.resignFirstResponder()
@@ -245,15 +246,16 @@ class LoginViewController: UIViewController {
                 }
                 else {
                     //user not logged in. Error
-                    let alert = UIAlertController(title: "Log in Error", message: "We were unable to log you in", preferredStyle: .alert)
+                    let alert = UIAlertController(title: "Log in Error",
+                                                  message: "We were unable to log you in",
+                                                  preferredStyle: .alert)
                     
                     alert.addAction(UIAlertAction(title: "Dismiss", style: .cancel, handler: nil))
                     
                     self.present(alert, animated: true)
                 }
             }
-        }
-        
+        } 
     }
     
     @objc private func didTapTermsButton(){
