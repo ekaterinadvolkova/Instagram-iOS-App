@@ -11,17 +11,29 @@ public class DatabaseManager {
     ///         - email:String representing email
     ///         - username:String representing username
     public func canCreateNewUser(with email: String, username: String, completion: (Bool)->Void){
-        
+        completion(true)
     }
     
     /// Inserts new user data to database
-    /// -Parameters
-    ///         - email:String representing email
-    ///         - username:String representing username
-    public func insertNewUser(with email: String, username: String){
+    /// - Parameters
+    ///     - email: String representing email
+    ///     - username: String representing username
+    ///     - completion: Async callback for result if database entry succeded
+    public func insertNewUser(with email: String, username: String, completion: @escaping (Bool) -> Void){
         database.child(email).setValue(["username": username]) { error, _ in
+            if error == nil {
+                //succeded
+                completion(true)
+                return
+            }
+            else {
+                //failed
+                completion(false)
+                return
+            }
             
         }
     }
+
     
 }

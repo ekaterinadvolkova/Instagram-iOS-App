@@ -16,6 +16,18 @@ public class AuthManager {
                         return
                     }
                     //Insert into database
+                    DatabaseManager.shared.insertNewUser(with: email, username: username){ inserted in
+                        if inserted {
+                            completion(true)
+                            return
+                        }
+                        else {
+                            // Failed to insert to database 
+                            completion(false)
+                            return
+                        }
+                        
+                    }
                 }
             }
             else {
