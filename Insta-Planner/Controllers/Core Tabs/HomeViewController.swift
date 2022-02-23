@@ -10,9 +10,6 @@ class HomeViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         handleNotAuthenticated()
-        
-        //Temporary: sign out every time
-//         
     }
     
     private func handleNotAuthenticated(){
