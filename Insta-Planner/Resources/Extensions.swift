@@ -41,7 +41,7 @@ extension UIView {
 }
 
 extension String {
-    mutating func safeDatabaseKey(){
-        return self.replacingOccurrences(of:  ".", with: "-")
+    func safeDatabaseKey() -> String{
+        return self.replacingOccurrences(of:  ".", with: "-").replacingOccurrences(of:  "@", with: "-") 
     }
 }
