@@ -1,19 +1,23 @@
-//
-//  ProfileViewController.swift
-//  Insta-Planner
-//
-//  Created by Ekaterina Volkova on 03/02/2022.
-//
-
 import UIKit
 
 class ProfileViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .systemBackground
+        configureNavigationBar()
     }
     
-
+    private func configureNavigationBar(){
+        navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "gear"),
+                                                            style: .done,
+                                                            target: self,
+                                                            action: #selector(didTapSettingsButton))
+    }
+    
+    @objc private func didTapSettingsButton(){
+        let vc = SettingsViewController()
+        vc.title = "Settings"
+        navigationController?.pushViewController(vc, animated: true)
+    }
 }

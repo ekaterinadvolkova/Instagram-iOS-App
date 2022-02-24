@@ -279,9 +279,7 @@ class LoginViewController: UIViewController {
         vc.title = "Create Account"
         
         present(UINavigationController(rootViewController: vc), animated: true)
-        
     }
-    
 }
 
 extension LoginViewController: UITextFieldDelegate {
@@ -293,7 +291,6 @@ extension LoginViewController: UITextFieldDelegate {
         else if textField == passwordField {
             didTapLoginButton()
         }
-        
         return true
     }
 }
