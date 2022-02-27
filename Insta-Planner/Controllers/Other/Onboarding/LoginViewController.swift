@@ -92,22 +92,24 @@ class LoginViewController: UIViewController {
         
         // connect buttons to the functions
         
+        //login
         loginButton.addTarget(self,
                               action: #selector(didTapLoginButton),
                               for: .touchUpInside)
         
+        //create account
         createAccountButton.addTarget(self,
                                       action: #selector(didTapCreateAccountButton),
                                       for: .touchUpInside)
-        
+        //terms
         termsButton.addTarget(self,
                               action: #selector(didTapTermsButton),
                               for: .touchUpInside)
         
+        //privacy
         privacyButton.addTarget(self,
                                 action: #selector(didTapPrivacyButton),
                                 for: .touchUpInside)
-        
         
         // assign delegate for text field
         
@@ -125,7 +127,7 @@ class LoginViewController: UIViewController {
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         
-        // assign frames for fields below:
+        // assign frames for fields: header, username, passowrd, login button, create account, terms, privacy
         
         headerView.frame = CGRect(
             x: 0,
@@ -200,7 +202,6 @@ class LoginViewController: UIViewController {
             width: headerView.width / 2.0,
             height: headerView.height - view.safeAreaInsets.top)
     }
-    
     
     private func addSubViews(){
         view.addSubview(usernameEmailField)

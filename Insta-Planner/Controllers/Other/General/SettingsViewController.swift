@@ -15,7 +15,7 @@ final class SettingsViewController: UIViewController {
     }()
     
     private var data = [[SettingCellModel]]()
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         configureModels()

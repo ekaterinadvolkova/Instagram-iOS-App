@@ -76,7 +76,7 @@ class RegistrationViewController: UIViewController {
         button.setTitleColor(.white, for: .normal)
         return button
     }()
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         registerButton.addTarget(self, action: #selector(didTapRegister), for: .touchUpInside)
@@ -110,24 +110,24 @@ class RegistrationViewController: UIViewController {
         //make sure that all field are not nill and not empty, that password length is  >= 8
         guard let email = emailField.text, !email.isEmpty,
               let password = passwordField.text, !password.isEmpty, password.count >= 8,
-                let username = usernameField.text, !username.isEmpty else {
+              let username = usernameField.text, !username.isEmpty else {
                   return
               }
         
         AuthManager.shared.registerNewUser(username: username, email: email, password: password){ registered in
             DispatchQueue.main.async {
                 if registered {
-                    
+                    //good to go
                 }
                 else {
-                    
+                    //failed
                 }
             }
             
         }
         
     }
-
+    
 }
 
 extension RegistrationViewController: UITextFieldDelegate{
