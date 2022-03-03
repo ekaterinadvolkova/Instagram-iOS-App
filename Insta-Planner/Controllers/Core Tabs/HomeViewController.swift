@@ -8,11 +8,11 @@ class HomeViewController: UIViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        
-        handleNotAuthenticated()
+    
         super.viewDidAppear(animated)
+        handleNotAuthenticated()
         
-//        //Force sign out
+        //Force sign out
 //        do {
 //            try FirebaseAuth.Auth.auth().signOut()
 //        }
@@ -33,7 +33,7 @@ class HomeViewController: UIViewController {
             present(loginVC, animated: false)
         }
         else {
-            print("error current user")
+            print("current user \(Auth.auth().currentUser)")
         }
     }
 

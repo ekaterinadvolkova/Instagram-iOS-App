@@ -8,6 +8,7 @@ class ProfileViewController: UIViewController {
         configureNavigationBar()
     }
     
+    //add gear icon
     private func configureNavigationBar(){
         navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "gear"),
                                                             style: .done,
