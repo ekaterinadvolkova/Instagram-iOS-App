@@ -21,7 +21,4 @@ class CameraViewController: UIViewController {
     private func didTapTakePicture(){
         
     }
-    
-
-
 }
